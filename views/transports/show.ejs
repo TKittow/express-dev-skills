@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=transport.method %></title>
+</head>
+<body>
+   <h1><%=transport.method %></h1>
+   <p>Price: <%= transport.price %></p>
+   <p> It is <%= transport.economical ? "" : "not "%> economical </p>
+   <p> You <%= transport.distance%> with this travel
+   </p>
+   <p>I rate this form of travel <%= transport.stars %>/5 stars </p>
+</body>
+</html>
